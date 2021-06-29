@@ -1,0 +1,44 @@
+.mouth-header-container{
+    border-bottom: 1px solid rgb(219, 215, 215);
+}
+
+.mouth-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#pre-mouth:hover,
+#next-mouth:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+.day-of-week-container{
+    border-bottom: 2px solid rgb(219, 215, 215);
+}
+
+.day-of-week{
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.day{
+    width: 14.2857%;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(240, 238, 238);
+}
+
+.sun,
+.sat{
+    background-color: rgb(245, 190, 88);
+}
+
+.day + .day{
+    border-left: 1px solid rgb(219, 215, 215);
+}
