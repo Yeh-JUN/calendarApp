@@ -1,5 +1,21 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+
+    /* font-family: 'Fugaz One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shrikhand', cursive; */
+
+}
+
+.navbar-container{
+    position: sticky;
+    top: 0;
+}
+
 .mouth-header-container{
     border-bottom: 1px solid rgb(219, 215, 215);
+    background-color: #fff;
+    
 }
 
 .mouth-header{
@@ -11,8 +27,13 @@
     height: 50px;
 }
 
-#pre-mouth:hover,
-#next-mouth:hover{
+#pre-month,
+#next-month{
+    font-size: 25px;
+}
+
+#pre-month:hover,
+#next-month:hover{
     color: skyblue;
     cursor: pointer;
 }
@@ -32,6 +53,8 @@
     text-align: center;
     line-height: 40px;
     background-color: rgb(240, 238, 238);
+    font-style: italic;
+    font-weight: 800;
 }
 
 .sun,

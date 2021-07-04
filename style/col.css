@@ -1,0 +1,75 @@
+.day-items{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid rgb(219, 215, 215);
+    border-left: 1px solid rgb(219, 215, 215);
+}
+
+/* 日期外框格式增加 */
+.day-item{
+    border-bottom: 1px solid rgb(219, 215, 215);
+    background-color: rgb(249, 249, 249);
+    width: 14.2857%;
+    min-height: 100px;
+}
+/* dayElm.setAttribute('style' , "background-color:rgb(250, 255, 255);") */
+
+.day-item:nth-child(7n),
+.day-item:nth-child(7n+1){
+    color:red;
+}
+
+/* 日期數字格式 */
+.day-num{
+    padding: 5px 10px 10px 5px;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.day-item:hover{
+    background-color: rgb(252, 235, 203);
+}
+
+.day-item + .day-item{
+    border-left: 1px solid rgb(219, 215, 215);
+}
+
+.day-item:nth-of-type(7n+1){
+    border-left: 0;
+}
+
+.todoList-li{
+    background-color: rgb(245, 190, 88);
+    font-weight: 700;
+    padding: 3px;
+    margin-bottom: 2px;
+    z-index: 1;
+}
+
+.todoList-li:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+}
+
+.reset-calendar{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
